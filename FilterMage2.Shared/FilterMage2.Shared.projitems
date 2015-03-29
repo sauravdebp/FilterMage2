@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>73df4157-6ad2-4ef7-a9d1-79f8dc319da5</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>FilterMage2</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="$(MSBuildThisFileDirectory)App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)DataModel\EffectWrapper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataModel\FilterSettings\FilterSetting.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataModel\FilterSettings\SettingTypes\BoolSetting.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataModel\FilterSettings\SettingTypes\DiscreteRangeSetting.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataModel\FilterSettings\SettingTypes\EnumSetting.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataModel\FilterSettings\SettingTypes\ContinuousRangeSetting.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataModel\Filters\ArtisticFilters\CartoonFilter_w.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataModel\Filters\FilterWrapper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataModel\SampleDataSource.cs" />
+    <Content Include="$(MSBuildThisFileDirectory)DataModel\SampleData.json" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\LightGray.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\MediumGray.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\DarkGray.png" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\NavigationHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\RelayCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\SuspensionManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\ObservableDictionary.cs" />
+    <PRIResource Include="$(MSBuildThisFileDirectory)Strings\en-US\Resources.resw" />
+  </ItemGroup>
+</Project>

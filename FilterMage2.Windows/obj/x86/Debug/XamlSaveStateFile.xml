@@ -1,0 +1,9 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="e:\visual studio projects\windows phone\filtermage2\filtermage2\filtermage2.windows\obj\x86\debug\intermediatexaml\filtermage2.windows.exe" HashGuid="2cd9c330-cc0e-b039-1a7d-fd4373ff791e" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\microsoft.vclibs\12.0\references\commonconfiguration\neutral\platform.winmd" HashGuid="58b6b6d1-928e-9908-9804-eb460e5e101b" />
+    <ReferenceAssembly PathName="e:\visual studio projects\windows phone\filtermage2\packages\lumiaimagingsdk.2.0.208\lib\win81-hidden\x86\lumia.imaging.managed.dll" HashGuid="4995ac95-997b-6a34-dd96-7fb05ef15210" />
+    <ReferenceAssembly PathName="e:\visual studio projects\windows phone\filtermage2\packages\lumiaimagingsdk.2.0.208\lib\win81\x86\lumia.imaging.winmd" HashGuid="b64b4ba1-8092-477a-eb3c-f982413461b2" />
+    <ReferenceAssembly PathName="e:\visual studio projects\windows phone\filtermage2\packages\lumiaimagingsdk.2.0.208\lib\win81\x86\lumia.interopservices.windowsruntime.winmd" HashGuid="be026b97-4e17-03e1-494d-e8a25f3c2582" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>
